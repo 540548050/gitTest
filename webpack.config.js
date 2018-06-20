@@ -9,6 +9,11 @@ module.exports = {
 		filename: 'js/app.js',
 		publicPath:'/dist/'
 	},
+	resolve:{
+		alias:{
+			pages:path.resolve(__dirname,'src/pages')
+		}
+	},
 	module: {
 		rules: [
 			{
